@@ -571,8 +571,8 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>0.0</real>
-											<real>0.0</real>
+											<real>0.39694452285766602</real>
+											<real>83.738815307617188</real>
 										</array>
 										<array>
 											<real>0.0</real>
@@ -583,46 +583,24 @@
 											<real>177</real>
 										</array>
 										<array>
-											<real>41.722640991210938</real>
-											<real>104.40621948242188</real>
+											<real>40.718051910400391</real>
+											<real>103.88117218017578</real>
 										</array>
 										<array>
-											<real>19.285140991210938</real>
-											<real>103.3671875</real>
-										</array>
-										<array>
-											<real>17.24609375</real>
-											<real>-0.35546875</real>
+											<real>18.695343017578125</real>
+											<real>83.602226257324219</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>0.0</real>
-												<real>177</real>
+												<real>18.695343017578125</real>
+												<real>83.602226257324219</real>
 											</array>
 											<array>
-												<real>0.0</real>
-												<real>0.0</real>
-											</array>
-											<array>
-												<real>17.24609375</real>
-												<real>-0.35546875</real>
-											</array>
-											<array>
-												<real>19.285140991210938</real>
-												<real>103.3671875</real>
-											</array>
-										</array>
-										<array>
-											<array>
-												<real>19.285140991210938</real>
-												<real>103.3671875</real>
-											</array>
-											<array>
-												<real>41.722640991210938</real>
-												<real>104.40621948242188</real>
+												<real>40.718051910400391</real>
+												<real>103.88117218017578</real>
 											</array>
 											<array>
 												<real>42</real>
@@ -631,6 +609,10 @@
 											<array>
 												<real>0.0</real>
 												<real>177</real>
+											</array>
+											<array>
+												<real>0.39694452285766602</real>
+												<real>83.738815307617188</real>
 											</array>
 										</array>
 									</array>
