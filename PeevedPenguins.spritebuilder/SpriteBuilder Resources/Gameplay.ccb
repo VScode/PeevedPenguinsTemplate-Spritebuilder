@@ -224,8 +224,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>14</real>
-						<real>150</real>
+						<real>12.999984741210938</real>
+						<real>129.49996948242188</real>
 					</array>
 				</dict>
 				<dict>
@@ -585,24 +585,46 @@
 											<real>177</real>
 										</array>
 										<array>
-											<real>38.355453491210938</real>
-											<real>103.99215698242188</real>
+											<real>41.722640991210938</real>
+											<real>104.40621948242188</real>
 										</array>
 										<array>
-											<real>19.34375</real>
-											<real>29.824203491210938</real>
+											<real>19.285140991210938</real>
+											<real>103.3671875</real>
+										</array>
+										<array>
+											<real>17.24609375</real>
+											<real>-0.35546875</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>19.34375</real>
-												<real>29.824203491210938</real>
+												<real>0.0</real>
+												<real>177</real>
 											</array>
 											<array>
-												<real>38.355453491210938</real>
-												<real>103.99215698242188</real>
+												<real>0.0</real>
+												<real>0.0</real>
+											</array>
+											<array>
+												<real>17.24609375</real>
+												<real>-0.35546875</real>
+											</array>
+											<array>
+												<real>19.285140991210938</real>
+												<real>103.3671875</real>
+											</array>
+										</array>
+										<array>
+											<array>
+												<real>19.285140991210938</real>
+												<real>103.3671875</real>
+											</array>
+											<array>
+												<real>41.722640991210938</real>
+												<real>104.40621948242188</real>
 											</array>
 											<array>
 												<real>42</real>
@@ -611,10 +633,6 @@
 											<array>
 												<real>0.0</real>
 												<real>177</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>0.0</real>
 											</array>
 										</array>
 									</array>
