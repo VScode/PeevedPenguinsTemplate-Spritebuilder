@@ -148,8 +148,6 @@
 					</array>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 		<dict>
 			<key>UUID</key>
@@ -213,7 +211,7 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>5.6843418860808015e-14</real>
+						<real>1.1368683772161603e-13</real>
 						<real>14</real>
 					</array>
 				</dict>
@@ -275,9 +273,11 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>100</real>
+					<real>500</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
