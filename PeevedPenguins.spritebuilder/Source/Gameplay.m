@@ -37,6 +37,14 @@
     _pullbackNode.physicsBody.collisionMask = @[];
     
     _mouseJointNode.physicsBody.collisionMask =@[];
+    
+    //Now that we implement the protocol (<CCPhysicsCollisionDelegate>), we can sign up as the collision delegate of our physics node.
+    _physicsNode.collisionDelegate = self;
+}
+
+-(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
+{
+    CCLOG(@"Something collided with a seal!");
 }
 
 // called on every touch in this scene
