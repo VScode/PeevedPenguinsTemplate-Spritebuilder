@@ -83,7 +83,7 @@
         
         // follow the flying penguin
         CCActionFollow *follow = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
-        //[_contentNode runAction:follow];
+        [_contentNode runAction:follow];
 
     }
     
