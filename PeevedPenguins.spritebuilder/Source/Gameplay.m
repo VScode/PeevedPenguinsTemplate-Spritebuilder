@@ -29,7 +29,7 @@
     CCAction *_followPenguin;
 }
 
-static const float MIN_SPEED = 1.f;//5.f;
+static const float MIN_SPEED = 10.f;//5.f;
 
 // is called when CCB file has completed loading
 - (void)didLoadFromCCB {
