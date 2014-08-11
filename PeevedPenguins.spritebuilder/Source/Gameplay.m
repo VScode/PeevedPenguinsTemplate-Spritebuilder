@@ -25,6 +25,7 @@
     CCPhysicsJoint *_penguinCatapultJoint;
     
     static const float MIN_SPEED = 5.f;
+    CCAction *_followPenguin;
 }
 
 // is called when CCB file has completed loading
@@ -133,6 +134,10 @@
         [_mouseJoint invalidate];
         _mouseJoint = nil;
     }
+    
+    // follow the flying penguin
+    _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+    [_contentNode runAction:_followPenguin];
 }
 
 -(void) touchEnded:(UITouch *)touch withEvent:(UIEvent *)event
@@ -196,5 +201,12 @@
     }
 }
 
+- (void)nextAttempt {
+    _currentPenguin = nil;
+    [_contentNode stopAction:_followPenguin];
+    
+    CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:1.f position:ccp(0, 0)];
+    [_contentNode runAction:actionMoveTo];
+}
 
 @end
