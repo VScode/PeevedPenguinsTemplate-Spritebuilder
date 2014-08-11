@@ -234,7 +234,7 @@
 					<key>value</key>
 					<array>
 						<real>100</real>
-						<false/>
+						<true/>
 					</array>
 				</dict>
 				<dict>
@@ -245,7 +245,7 @@
 					<key>value</key>
 					<array>
 						<real>100</real>
-						<false/>
+						<true/>
 					</array>
 				</dict>
 				<dict>
@@ -276,6 +276,8 @@
 					<real>500</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -1407,8 +1409,6 @@
 								<string>WaitingPenguin.ccb</string>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
