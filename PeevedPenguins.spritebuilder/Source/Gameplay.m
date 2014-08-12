@@ -105,6 +105,7 @@ static const float MIN_SPEED = 10.f;//5.f;
         _currentPenguin.physicsBody.allowsRotation = FALSE;
         
         // create a joint to keep the penguin fixed to the scoop until the catapult is released
+        _physicsNode.sleepTimeThreshold = 5.0f;
         _penguinCatapultJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_currentPenguin.physicsBody bodyB:_catapultArm.physicsBody anchorA:_currentPenguin.anchorPointInPoints];
    
         // releases the joint and lets the penguin fly
