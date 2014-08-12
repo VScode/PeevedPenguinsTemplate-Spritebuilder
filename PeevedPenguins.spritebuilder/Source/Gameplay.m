@@ -182,7 +182,7 @@ static const float MIN_SPEED = 10.f;//5.f;
     // reload this level
     [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
 }
-
+/*
 - (void)update:(CCTime)delta
 {
     if (_currentPenguin.launched) {
@@ -209,7 +209,7 @@ static const float MIN_SPEED = 10.f;//5.f;
         }
     }
 }
-
+*/
 - (void)nextAttempt {
     _currentPenguin = nil;
     [_contentNode stopAction:_followPenguin];
