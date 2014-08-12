@@ -223,7 +223,7 @@
 					<key>value</key>
 					<array>
 						<real>14</real>
-						<real>150</real>
+						<real>156.515625</real>
 					</array>
 				</dict>
 				<dict>
@@ -276,6 +276,8 @@
 					<real>500</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -561,7 +563,7 @@
 									<key>cornerRadius</key>
 									<real>0.0</real>
 									<key>density</key>
-									<real>50</real>
+									<real>1</real>
 									<key>dynamic</key>
 									<true/>
 									<key>elasticity</key>
@@ -690,8 +692,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
