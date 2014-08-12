@@ -255,7 +255,7 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>50</real>
+						<real>500</real>
 						<true/>
 					</array>
 				</dict>
@@ -276,8 +276,6 @@
 					<real>50</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -585,6 +583,10 @@
 											<real>177</real>
 										</array>
 										<array>
+											<real>38.261688232421875</real>
+											<real>150.08590698242188</real>
+										</array>
+										<array>
 											<real>40.718051910400391</real>
 											<real>103.88117218017578</real>
 										</array>
@@ -597,12 +599,8 @@
 									<array>
 										<array>
 											<array>
-												<real>18.695343017578125</real>
-												<real>83.602226257324219</real>
-											</array>
-											<array>
-												<real>40.718051910400391</real>
-												<real>103.88117218017578</real>
+												<real>38.261688232421875</real>
+												<real>150.08590698242188</real>
 											</array>
 											<array>
 												<real>42</real>
@@ -612,9 +610,27 @@
 												<real>0.0</real>
 												<real>177</real>
 											</array>
+										</array>
+										<array>
+											<array>
+												<real>0.0</real>
+												<real>177</real>
+											</array>
 											<array>
 												<real>0.39694452285766602</real>
 												<real>83.738815307617188</real>
+											</array>
+											<array>
+												<real>18.695343017578125</real>
+												<real>83.602226257324219</real>
+											</array>
+											<array>
+												<real>40.718051910400391</real>
+												<real>103.88117218017578</real>
+											</array>
+											<array>
+												<real>38.261688232421875</real>
+												<real>150.08590698242188</real>
 											</array>
 										</array>
 									</array>
@@ -692,6 +708,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
