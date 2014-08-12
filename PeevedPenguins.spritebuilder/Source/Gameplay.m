@@ -105,7 +105,6 @@ static const float MIN_SPEED = 10.f;//5.f;
         _currentPenguin.physicsBody.allowsRotation = FALSE;
         
         // create a joint to keep the penguin fixed to the scoop until the catapult is released
-        _physicsNode.sleepTimeThreshold = 5.0f;
         _penguinCatapultJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_currentPenguin.physicsBody bodyB:_catapultArm.physicsBody anchorA:_currentPenguin.anchorPointInPoints];
    
         // releases the joint and lets the penguin fly
@@ -140,10 +139,10 @@ static const float MIN_SPEED = 10.f;//5.f;
     }
     
     // follow the flying penguin
- //   _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
- //   [_contentNode runAction:_followPenguin];
+    _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+    [_contentNode runAction:_followPenguin];
     
- //   _currentPenguin.launched = TRUE;
+    _currentPenguin.launched = TRUE;
 }
 
 -(void) touchEnded:(UITouch *)touch withEvent:(UIEvent *)event
@@ -183,7 +182,7 @@ static const float MIN_SPEED = 10.f;//5.f;
     // reload this level
     [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
 }
-/*
+
 - (void)update:(CCTime)delta
 {
     if (_currentPenguin.launched) {
@@ -210,7 +209,7 @@ static const float MIN_SPEED = 10.f;//5.f;
         }
     }
 }
-*/
+
 - (void)nextAttempt {
     _currentPenguin = nil;
     [_contentNode stopAction:_followPenguin];
