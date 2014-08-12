@@ -108,8 +108,8 @@ static const float MIN_SPEED = 10.f;//5.f;
         _penguinCatapultJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_currentPenguin.physicsBody bodyB:_catapultArm.physicsBody anchorA:_currentPenguin.anchorPointInPoints];
    
         // releases the joint and lets the penguin fly
-    //    [_penguinCatapultJoint invalidate];
-    //    _penguinCatapultJoint = nil;
+        [_penguinCatapultJoint invalidate];
+        _penguinCatapultJoint = nil;
         
         // after snapping rotation is fine
         _currentPenguin.physicsBody.allowsRotation = TRUE;
