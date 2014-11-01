@@ -7,7 +7,7 @@
 //
 
 #import "CCSprite.h"
-#import "CCBReader.h"
+//#import "CCBReader.h"
 
 @interface WaitingPenguin : CCSprite
 
