@@ -81,7 +81,7 @@ static const float MIN_SPEED = 10.f;//5.f;
 }
 
 // called on every touch in this scene
-- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+- (void)touchBegan:(CCTouch *)touch withEvent:(UIEvent *)event {
     //[self launchPenguin];
     
     CGPoint touchLocation = [touch locationInNode:_contentNode];
@@ -123,7 +123,7 @@ static const float MIN_SPEED = 10.f;//5.f;
     
 }
 
-- (void)touchMoved:(UITouch *)touch withEvent:(UIEvent *)event
+- (void)touchMoved:(CCTouch *)touch withEvent:(UIEvent *)event
 {
     // whenever touches move, update the position of the mouseJointNode to the touch position
     CGPoint touchLocation = [touch locationInNode:_contentNode];
